@@ -1,0 +1,37 @@
+body{
+    overflow-x: hidden;
+}
+.pozadina{
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+.treca{
+    background-image: url("../img/slajder3.jpg");
+}
+.druga{
+    background-image: url("../img/pozadina.jpg");
+}
+nav, .btn{
+    background-color:#40466B;
+}
+.fixed-top{
+    z-index: 999;
+}
+.sidenav{
+    z-index: 1030;
+}
+.brand-logo, h1 ,h2{
+    font-family: 'Parisienne', cursive;
+}
+.page-footer, .sidenav, .dropdown-content, .btn:hover{
+    background-color: #40466B;
+}
+.divider{
+    height: 3px;
+}
+input::placeholder, textarea::placeholder{
+    color: #40466B;
+}

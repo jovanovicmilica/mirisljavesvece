@@ -1,0 +1,56 @@
+.pozadina{
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+.treca{
+    background-image: url("../img/slajder3.jpg");
+}
+.druga{
+    background-image: url("../img/pozadina.jpg");
+}
+nav, .btn{
+    background-color:#40466B; 
+}
+.fixed-top{
+    z-index: 999;
+}
+.sidenav{
+    z-index: 1030;
+}
+.brand-logo, h1 ,h2{
+    font-family: 'Parisienne', cursive;
+}
+.page-footer, .sidenav, .dropdown-content, .btn:hover{
+    background-color: #40466B;
+}
+.divider{
+    height: 3px;
+}
+input::placeholder, textarea::placeholder{
+    color: #40466B;
+}
+input[type=text]:not(.browser-default), .form-control{
+    width: 100%;
+    font-size: 1rem;
+    padding: 0px 0px 0px 5px;
+    height: 40px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: 0px;
+}
+.form-control{
+    padding: 5px;
+}
+input:focus, textarea:focus{
+    border-color: #40466B!important;
+    box-shadow: 0 0 0 0.2rem rgba(64, 70, 107, 0.25)!important;
+}

@@ -35,7 +35,7 @@ nav, .btn{
 input::placeholder, textarea::placeholder{
     color: #40466B;
 }
-input[type=text]:not(.browser-default), .form-control{
+input[type=text]:not(.browser-default),input[type=email]:not(.browser-default), .form-control{
     width: 100%;
     font-size: 1rem;
     padding: 0px 0px 0px 5px;

@@ -58,7 +58,7 @@ input:focus, textarea:focus{
     box-shadow: 0 0 0 0.2rem rgba(64, 70, 107, 0.25)!important;
 }
 input,textarea{
-    background-color: rgba(0, 0, 0, 0.25)!important;
+    background-color: rgba(255, 255, 255, 0.25)!important;
 }
 .modal{
     width: 80%;

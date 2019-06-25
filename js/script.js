@@ -6,14 +6,12 @@ $(document).ready(function(){
     $('.sidenav').sidenav();
   });
 
-
-    
-  $('.carousel.carousel-slider').carousel({
-    fullWidth: true,
-    indicators: true
+  $(document).ready(function(){
+    $('.slider').slider({
+      indicators: false
+    });
   });
 
   $(document).ready(function(){
     $('.modal').modal();
   });
-        

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sr-Latn-RS">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,7 +27,7 @@
                         </ul>
       <div class="nav-wrapper">
         <div class="col-xs-12 mx-0 px-0">
-  <a href="#" class="brand-logo text-decoration-none ml-3 white-text">MS</a>
+  <a href="index.html" class="brand-logo text-decoration-none ml-3 white-text">MS</a>
   <a href="#" data-target="mobile-demo" class="sidenav-trigger text-decoration-none white-text"><i class="material-icons">menu</i></a>
   <ul id="dropdown1" class="dropdown-content">
         <li><a href="mirisljave.html" class="text-decoration-none white-text">Mirisljave svece</a></li>
@@ -64,45 +64,111 @@
             </div>
         </div>
         <div class="container-fluid">
+          <div class="row okvir  rounded px-5 p-3 pt-4">
+              <div class="col-xs-10 col-lg-3">
+                  <a class="waves-effect waves-light btn modal-trigger white-text" href="#modal1">Filteri</a>
+    
+                  <div id="modal1" class="modal filteri">
+                    <div class="modal-content">
+                      <form action="#" method="GET">
+                          <h3>Boja:</h3>
+                          <div class="custom-control custom-radio">
+                              <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                              <label class="custom-control-label" for="customRadio1">Crno-bela</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio2">Plava</label>
+                              </div>
+                              <div class="custom-control custom-radio">
+                                  <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+                                  <label class="custom-control-label" for="customRadio3">Roze</label>
+                                </div>
+                                <h3>Materijal:</h3>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadio4">Staklo</label>
+                                  </div>
+                                  <div class="custom-control custom-radio">
+                                      <input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
+                                      <label class="custom-control-label" for="customRadio5">Plastika</label>
+                                    </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Primeni</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-xs-12 pt-1"><p>Sortiraj po:</p></div>
+              <div class="col-lg-6 col-xs-12">
+              <form action="#">
+              <div class="form-group">
+                <select class="custom-select">
+                  <option value="">Ceni rastuce</option>
+                  <option value="1">Ceni opadajuce</option>
+                  <option value="">Mirisu A-Z</option>
+                  <option value="">Boji A-Z</option>
+                  <option value="">Preporuci korisnika</option>
+                </select>
+              </div>
+            </form>
+          </div>
+          </div>
+            </div>
+        <div class="container-fluid">
             <div class="row pt-2 pb-2">
-                    <div class="col-lg-12 d-flex justify-content-around flex-wrap">
-                            <div class="card col-xs-3 ml-1 mr-1 pl-0 pr-0 rounded">
+                    <div class="col-lg-12 col-xs-12 d-flex justify-content-around flex-wrap">
+                            <div class="card col-xs-8 col-sm-4 col-md-3 col-lg-3 mx-1 px-0 rounded">
                               <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator rounded" src="img/slika19.jpg">
                               </div>
                               <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Šipak<i class="grey-text text-darken-4 right">Prikazi vise</i></span>
+                                  <span class="card-title activator grey-text text-darken-4">
+                                      <i class="font-weight-bold">Drzac</i>
+                                        <i class="card-title activator grey-text text-darken-4 right">Prikazi vise</i>
+                                      </span>
                               </div>
                               <div class="card-reveal #e0e0e0 grey lighten-2">
-                                <span class="card-title grey-text text-darken-4">Šipak<i class="material-icons right">close</i></span>
-                                <p>Zelena sveca sa mirisom bergamota.</p>
-                                <p>850 dinara</p>
+                                <span class="card-title grey-text text-darken-4 font-weight-bold">Drzac<i class="material-icons right">close</i></span>
+                                <p>Stakleni drzac za svecu sa crno belim dezenom.</p>
+                                <p>Uz drzac se dobija i sveca sa mirisom limuna</p>
+                                <p class="font-weight-bold">700 dinara</p>
                               </div>
                             </div>
-                            <div class="card col-xs-3 ml-1 mr-1 pl-0 pr-0 rounded">
+                            <div class="card col-xs-8 col-sm-4 col-md-3 col-lg-3 mx-1 px-0 rounded">
                               <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator rounded" src="img/slika20.jpg">
                               </div>
                               <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Beli jasmin<i class="grey-text text-darken-4 right">Prikazi vise</i></span>
+                                  <span class="card-title activator grey-text text-darken-4">
+                                      <i class="font-weight-bold">Drzac</i>
+                                        <i class="card-title activator grey-text text-darken-4 right">Prikazi vise</i>
+                                      </span>
                               </div>
                               <div class="card-reveal #e0e0e0 grey lighten-2">
-                                <span class="card-title grey-text text-darken-4">Beli jasmin<i class="material-icons right">close</i></span>
-                                <p>Srebrna sveca sa mirisom verbene.</p>
-                                <p>850 dinara</p>
+                                <span class="card-title grey-text text-darken-4 font-weight-bold">Drzac<i class="material-icons right">close</i></span>
+                                <p>Stakleni drzac za svecu sa crno belim dezenom i srebrnim detaljem.</p>
+                                <p>Uz drzac se dobija sveca sa mirisom bele cokolade.</p>
+                                <p class="font-weight-bold">830 dinara</p>
                               </div>
                             </div>
-                            <div class="card col-xs-3 ml-1 mr-1 pl-0 pr-0 rounded">
+                            <div class="card col-xs-8 col-sm-4 col-md-3 col-lg-3 mx-1 px-0 rounded">
                               <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator rounded" src="img/slika21.jpg">
                               </div>
                               <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Šipak <i class="grey-text text-darken-4 right">Prikazi vise</i></span>
+                                  <span class="card-title activator grey-text text-darken-4">
+                                      <i class="font-weight-bold">Drzac</i>
+                                        <i class="card-title activator grey-text text-darken-4 right">Prikazi vise</i>
+                                  </span>
                               </div>
                               <div class="card-reveal #e0e0e0 grey lighten-2">
-                                <span class="card-title grey-text text-darken-4">Šipak <i class="material-icons right">close</i></span>
-                                <p>Roze sveca sa mirisom pačulija.</p>
-                                <p>850 dinara</p>
+                                  <span class="card-title grey-text text-darken-4 font-weight-bold">Drzac<i class="material-icons right">close</i></span>
+                                  <p>Stakleni drzac za svecu sa crno belim dezenom i srebrnim detaljem.</p>
+                                  <p>Uz drzac se dobija sveca sa mirisom bele vanile.</p>
+                                  <p class="font-weight-bold">830 dinara</p>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -111,30 +177,38 @@
                         <div class="row pt-2 pb-2">
                             <div class="container"><h2 class="text-center">Iz ponude izdvajamo</h2></div>
                             <div class="col-lg-12 d-flex justify-content-around flex-wrap">
-                              <div class="card col-xs-3 ml-1 mr-1 pl-0 pr-0 rounded">
+                              <div class="card col-xs-8 col-sm-4 col-md-3 col-lg-3 mx-1 px-0 rounded">
                                 <div class="card-image waves-effect waves-block waves-light">
                                   <img class="activator rounded" src="img/slika22.jpg">
                                 </div>
                                 <div class="card-content">
-                                  <span class="card-title activator grey-text text-darken-4">Savana<i class="grey-text text-darken-4 right">Prikazi vise</i></span>
+                                    <span class="card-title activator grey-text text-darken-4">
+                                        <i class="font-weight-bold">Drzac</i>
+                                          <i class="card-title activator grey-text text-darken-4 right">Prikazi vise</i>
+                                      </span>
                                 </div>
                                 <div class="card-reveal #e0e0e0 grey lighten-2">
-                                  <span class="card-title grey-text text-darken-4">Savana<i class="material-icons right">close</i></span>
-                                  <p>Crna sveca sa mirisom ogreva.</p>
+                                  <span class="card-title grey-text text-darken-4 font-weight-bold">Drzac<i class="material-icons right">close</i></span>
+                                  <p>Plastican drzac za svecu plave boje sa zlatnim sarama.</p>
+                                  <p>Uz drzac se dobije sveca sa mirisom zvake.</p>
                                   <p>900 dinara</p>
                                 </div>
                               </div>
-                              <div class="card col-xs-3 ml-1 mr-1 pl-0 pr-0 rounded">
+                              <div class="card col-xs-8 col-sm-4 col-md-3 col-lg-3 mx-1 px-0 rounded">
                                 <div class="card-image waves-effect waves-block waves-light">
                                   <img class="activator rounded" src="img/slika23.jpg">
                                 </div>
                                 <div class="card-content">
-                                  <span class="card-title activator grey-text text-darken-4">Ogrev<i class="grey-text text-darken-4 right">Prikazi vise</i></span>
+                                    <span class="card-title activator grey-text text-darken-4">
+                                        <i class="font-weight-bold">Drzac</i>
+                                          <i class="card-title activator grey-text text-darken-4 right">Prikazi vise</i>
+                                      </span>
                                 </div>
                                 <div class="card-reveal #e0e0e0 grey lighten-2">
-                                  <span class="card-title grey-text text-darken-4">Ogrev<i class="material-icons right">close</i></span>
-                                  <p>Zlatna sveca sa mirisom djumbira.</p>
-                                  <p>900 dinara</p>
+                                    <span class="card-title grey-text text-darken-4 font-weight-bold">Drzac<i class="material-icons right">close</i></span>
+                                  <p>Plastican drzac za svecu roze boje sa zlatnim sarama.</p>
+                                  <p>Uz drzac se dobije sveca sa mirisom jagode.</p>
+                                  <p>920 dinara</p>
                                 </div>
                               </div>         
         </div>

@@ -77,3 +77,6 @@ input,textarea{
     background-color: #ebeae8;
     border: 3px solid #fff;
 }
+.fab, .fas{
+    font-size: 25px;
+}
